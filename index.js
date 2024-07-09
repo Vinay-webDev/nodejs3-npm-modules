@@ -1,6 +1,6 @@
 // how to install npm modules
 
-console.log('testing');
+//console.log('testing');
 
 // installing nodemon 
 // npm i nodemon -g
@@ -9,8 +9,11 @@ console.log('testing');
 // node dependecies have huge number of modules
 // so we don't want these files in github 
 // so add .gitignore file
+//----------------------------------------------------------------//
 
+const { format } = require('date-fns');
 
+console.log(format(new Date(), 'yyyyMMdd\tHH:mm:ss'));
 
 
 
