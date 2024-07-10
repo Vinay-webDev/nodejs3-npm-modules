@@ -17,7 +17,8 @@ console.log(format(new Date(), 'yyyyMMdd\tHH:mm:ss'));
 
 console.log('hello bro👋');
 
-
+// just ctrl + s 
+// nodemon will watch and saves the changes***
 
 
 
